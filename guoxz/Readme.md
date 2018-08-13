@@ -8,7 +8,7 @@
 ****
 ##如何测试
 ---
-* 打开Calculator\Calculator\bin\Debug\Calculator
+* 打开Calculator0.1\Calculator\bin\Debug\Calculator
 
 * 自由进行简单运算,但应注意：除数为0时会报错，确认后请继续输入一个除数；除数为0报错后，只有进行一次非0开头且非除法运算才可以生效。
 ****
