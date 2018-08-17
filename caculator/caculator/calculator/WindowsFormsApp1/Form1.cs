@@ -92,7 +92,10 @@ namespace WindowsFormsApp1
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            R1 = double.Parse(textBox1.Text);
+            if (double.Parse(textBox1.Text) >= 0 && double.Parse(textBox1.Text) <= 9)
+                R1 = double.Parse(textBox1.Text);
+            else
+                MessageBox.Show("请输入数字");
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
